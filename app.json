@@ -1,0 +1,26 @@
+{
+  "name": "stanhua_live",
+  "script": "./start.js",
+  "cwd": "./",
+  "watch": [
+    "app",
+    "config"
+  ],
+  "ignore_watch": [
+    "node_modules",
+    "logs",
+    "public"
+  ],
+  "exec_mode": "cluster_mode",
+  "instances": 4,
+  "max_memory_restart": 20,
+  "error_file": "./logs/pm2-err.log",
+  "merge_logs": true,
+  "log_date_format": "YYYY-MM-DD HH:mm:ss",
+  "watch_options": {
+    "followSymlinks": false
+  },
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
