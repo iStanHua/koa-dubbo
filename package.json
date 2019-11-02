@@ -10,7 +10,7 @@
   "dependencies": {
     "captchapng": "^0.0.1",
     "cheerio": "^1.0.0-rc.3",
-    "knex": "^0.16.5",
+    "knex": "^0.20.1",
     "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
     "koa-compress": "^3.0.0",
